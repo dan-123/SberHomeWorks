@@ -57,7 +57,7 @@ thirdCalculator.calcSum() // Virtual table
 
 // MARK: - Message dispatch
 
-class FourCalculator {
+class FourthCalculator {
     let firstParam: Int
     let secondParam: Int
     
@@ -71,5 +71,5 @@ class FourCalculator {
     }
 }
 
-let fourCalculator = FourCalculator(firstParam: 5, secondParam: 8)
-fourCalculator.calcSum() // Message dispatch
+let fourthCalculator = FourthCalculator(firstParam: 5, secondParam: 8)
+fourthCalculator.calcSum() // Message dispatch
