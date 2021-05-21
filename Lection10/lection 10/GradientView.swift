@@ -41,18 +41,4 @@ final class GradientView: UIView {
     private func updateColors() {
         gradientLayer.colors = colors.map {$0.cgColor}
     }
-    
-//    override func draw(_ rect: CGRect) {
-//        
-//        let offset: CGFloat = 200
-//        let color: UIColor = .systemYellow
-//        
-//        let rectangle = CGRect(x: offset/2, y: offset/2, width: rect.width-offset, height: rect.height-offset)
-//        let circle = UIBezierPath(roundedRect: rectangle, cornerRadius: rect.height/2)
-//        
-//        circle.lineWidth = offset
-//        
-//        color.setFill()
-//        circle.fill()
-//    }
 }

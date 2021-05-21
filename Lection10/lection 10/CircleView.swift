@@ -39,6 +39,4 @@ final class CircleView: UIView {
             }
             return view
         }
-
-
 }
