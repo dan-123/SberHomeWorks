@@ -50,5 +50,4 @@ class CustomActivity: UIActivity {
         action(self.items)
         activityDidFinish(true)
     }
-    
 }
