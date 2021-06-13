@@ -1,0 +1,28 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "8e1b6f7cda45935a807b55f30ea43671f2f9b3d2",
+  "iOS" : [
+    {
+      "swiftToolchainVersion" : "5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)",
+      "hash" : "b99c428d543dce9ffd3308d82b7a9c4a62b8d98bac090216422331dc24ba1e5f",
+      "name" : "Carthage",
+      "container" : "Carthage.xcframework",
+      "identifier" : "ios-arm64_x86_64-simulator"
+    },
+    {
+      "swiftToolchainVersion" : "5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)",
+      "hash" : "06d00b9386d1d6cd248435df2165f71af78cc863e1b74f92a80ba9c56aa49004",
+      "name" : "Carthage",
+      "container" : "Carthage.xcframework",
+      "identifier" : "ios-arm64"
+    }
+  ]
+}
