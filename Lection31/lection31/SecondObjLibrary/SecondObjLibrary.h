@@ -9,4 +9,6 @@
 
 @interface SecondObjLibrary : NSObject
 
+-(NSString*) secondObjLibraryFunc;
+
 @end

@@ -1,0 +1,11 @@
+//
+//  module.modulemap
+//  lection31
+//
+//  Created by Даниил Петров on 12.07.2021.
+//
+
+module ObjLibrary {
+    header "../FirstObjLibrary/FirstUmbrella.h"
+    export *
+}

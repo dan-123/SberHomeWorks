@@ -9,4 +9,8 @@
 
 @implementation SecondObjLibrary
 
+-(NSString*) secondObjLibraryFunc {
+    return @"Second objective-C library";
+}
+
 @end

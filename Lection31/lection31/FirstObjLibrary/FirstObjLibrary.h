@@ -10,6 +10,8 @@
 
 @interface FirstObjLibrary : NSObject
 
-@property (strong, nonatomic, readonly) SecondObjLibrary *secondObjLib;
+-(NSString*) firstObjLibraryFunc;
+-(NSString*) callSecondIbjLibrary;
+-(NSString*) callFirstSwiftLibrary;
 
 @end
