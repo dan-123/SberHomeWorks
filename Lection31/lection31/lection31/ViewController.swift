@@ -34,7 +34,6 @@ class ViewController: UIViewController {
         
         print("\nObjective-C в Swift")
         
-//        let swiftLibrary = FirstSwiftLibrary()
         print(firstSwiftLibrary.firstSwiftLibraryText)
         print(firstSwiftLibrary.callFirstObjLibrary())
         
@@ -42,7 +41,6 @@ class ViewController: UIViewController {
         
         print("\nSwift в Objective-C")
         
-//        let ObjLibrary = FirstObjLibrary()
         print(firstObjLibrary.firstObjLibraryFunc())
         print(firstObjLibrary.callFirstSwiftLibrary())
     }
